@@ -13,13 +13,22 @@
   <h1>Rock Paper Scissors</h1>
   <h2>Minecraft Edition</h2>
 
-  <form class="form-inline">
-    <div class="form-group mx-sm-3 mb-2">
-      <label for="playerName" class="sr-only">Enter your Name</label>
-      <input type="name" class="form-control" id="playerName" placeholder="Enter your name">
+  <div class="container" id="startBox">
+  <div class="card" style="width:30rem">
+    <div class="card-header">
+      Enter your name to play
     </div>
-    <button type="submit" class="btn btn-success mb-2" id="startBtn">Let's play!</button>
-  </form>
+    <div class="card-body">
+      <form class="form-inline">
+        <div class="form-group mx-sm-3 mb-2">
+          <label for="playerName" class="sr-only">Name</label>
+          <input type="name" class="form-control" id="playerName" placeholder="Steve">
+          </div>
+        <button type="submit" class="btn btn-success mb-2" id="startBtn">Let's play!</button>
+      </form>
+    </div>
+  </div>
+  </div>
 
   <div id="choice">
   <p>choose your weapon:</p>
